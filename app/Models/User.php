@@ -40,4 +40,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function gravatar()
+    {
+        return "http://m.imeitou.com/uploads/allimg/2021050309/y4yu3bbhumj-lp.jpg" ;
+    }
 }
