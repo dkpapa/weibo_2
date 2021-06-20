@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
          $user=User::find(1);
          $user->name='dl';
          $user->email='dl@qq.com';
+         $user->is_admin=true;
          $user->save();
     }
 }
